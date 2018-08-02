@@ -1,0 +1,60 @@
+html
+{
+	border:15px solid white;
+}
+body
+{
+	background-color:black;
+	color:white;
+	text-align:center;
+}
+table.Tilastotietoja
+{
+	border:3px solid white;
+	width:100%;
+	font-size:2em;
+	text-align:center;
+}
+td.info
+{
+	text-align:left;
+}
+table.weather
+{
+	border:3px solid white;
+	width:100%;
+	text-align:center;
+}
+table.warnings
+{
+	width:100%;
+}
+tr.alt
+{
+	background-color:red;
+}
+th.warning
+{
+	background-color:red;
+	-webkit-animation:flashing 1s infinite;
+	animation:flashing 1s infinite;
+}
+footer 
+{
+    width:100%;
+	text-align:center;
+}
+@-webkit-keyframes flashing
+{
+from {background:red;}
+to {background:black;}
+}
+
+@keyframes flashing
+{
+from {background:red;}
+to {background:black;}
+}
+
+
+
